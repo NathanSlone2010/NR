@@ -4,7 +4,7 @@ from datetime import datetime
 now = datetime.now()
 #required modules
 
-print("Number Roulette Version 1.01.00")
+print("Number Roulette Version 2.01.00")
 print("Copyright Void Studios 2026")
 time.sleep(0.5); print("\nNO ERRORS REPORTED")
 print(now.strftime("DATE: %y-%m-%d"))
