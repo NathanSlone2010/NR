@@ -1,0 +1,27 @@
+import time
+import random
+from datetime import datetime
+now = datetime.now()
+#required modules
+
+print("Number Roulette Version 1.00.00")
+print("Copyright Void Studios 2026")
+time.sleep(0.5); print("\nNO ERRORS REPORTED")
+print(now.strftime("DATE: %y-%m-%d"))
+#if users see this, program ran correctly
+
+choice = 10
+odds = 4 / choice
+
+time.sleep(1); print("PROGRAM START.")
+print("INITIALIZED\n")
+
+name = input("[NAME] ").upper()
+if name == "":
+	print("WELCOME USER")
+if name != "":
+	print("WELCOME, " + name)
+
+while True:
+	print("OPTIONS: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10")
+	number = input("CHOOSE YOUR NUMBER: ")
